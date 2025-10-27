@@ -1,0 +1,10 @@
+day=10
+month="august"
+year=2015
+weekday="monday"
+occassion="birthday"
+print("day:",day)
+print("month:",month)
+print("year:",year)
+print("weekday:",weekday)
+print("occassion:",occassion)
