@@ -13,6 +13,8 @@ if pc==1:
             if choice1==2:
                print("which model 1. austin martin 2. jeep")
                choice2=int(input("enter your choice:"))
+               if choice2==1:
+                   print("thank you for your time")
             if choice2==2:
                print("thank you for your time")
             
@@ -26,10 +28,12 @@ else:
         if choice2==1:
             print("thank you for your time")
             if choice2==2:
-                print("thank you for your time")
+                 print("thank you for your time")
             if choice1==2:
                print("which model 1. austin martin 2. jeep")
                choice2=int(input("enter your choice:"))
+               if choice2==1:
+                   print("thank you for your time")
             if choice2==2:
                print("thank you for your time")
     
