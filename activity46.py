@@ -1,0 +1,9 @@
+numset={1,2,3,4,5}
+print(numset)
+mixset={1,1.0,'text',True}
+print(mixset)
+seme={1,2,3,4,3,2,4}
+print(seme)
+muew=set([1,2,3,4,5])
+muew.pop()
+print(muew)
