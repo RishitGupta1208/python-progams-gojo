@@ -39,11 +39,11 @@ done = False
 
 while not done:
 
-for event in pygame.event.get():
+   for event in pygame.event.get():
 
-if event.type == pygame.QUIT:
+    if event.type == pygame.QUIT:
 
-done = True
+       done = True
 
 pressed = pygame.key.get_pressed()
 
