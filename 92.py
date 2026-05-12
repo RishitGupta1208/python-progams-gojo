@@ -17,12 +17,10 @@ background=pygame.image.load('background.png')
 pygame.display.set_caption("space invader")
 icon=pygame.image.load('ufo.png')
 pygame.display.set_icon(icon)
-#player setup
 playerimg=pygame.image.load('player.png')
 playerX=PLAYER_START_X
 playerY=PLAYER_START_Y
 playerX_change=0
-#enemysetup
 enemyimg=[]
 enemyX=[]
 enemyY=[]
@@ -35,7 +33,6 @@ for i in range(num_of_enemies):
     enemyY.append(random.randint(ENEMY_START_Y_MIN,ENEMY_START_Y_MAX))
     enemyX_change.append(ENEMY_SPEED_X)
     enemyY_change.append(ENEMY_SPEED_Y)
-#bullet setup
 bulletimg=pygame.image.load('bullet.png')
 bulletX=0
 bulletY=PLAYER_START_Y
@@ -47,7 +44,6 @@ score_value=0
 font=pygame.font.Font('freesansbold.ttf',32)
 textX=10
 textY=10
-#game over
 over_font=pygame.font.Font('freesansbold.ttf',64)
 def show_score(x,y):
     score=font.render("score: "+str(score_value),True,(255,255,255))
