@@ -12,6 +12,9 @@ ENEMY_SPEED_Y=40
 BULLET_SPEED_Y=10
 COLLISION_DISTANCE=27
 pygame.init()
+pygame.mixer.init()
+sound=pygame.mixer.Sound("space.mp3")
+sound.play()
 screen=pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
 background=pygame.image.load('background.png')
 pygame.display.set_caption("space invader")
