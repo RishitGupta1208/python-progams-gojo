@@ -33,4 +33,4 @@ while running:
     all_sprites.draw(screen)
     pygame.display.flip()
     clock.tick(60)
-pygame.quit()
+pygame.display()
