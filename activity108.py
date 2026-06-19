@@ -1,0 +1,15 @@
+from tkinter import *
+root=Tk()
+root.title("Text window")
+root.geometry('600x600')
+label=Label(text='click this button to go to toplevel screen')
+label.pack()
+def toplevel():
+    top=Toplevel()
+    top.geometry('200x200')
+    top.title("top level")
+    labeltop=Label(top,text='this is toplevel')
+    labeltop.pack()
+btn=Button(root,text='toplevel',bg="#F60B0B",fg='white',command=toplevel)
+btn.pack()
+root.mainloop()
